@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D32ED3B247BBDF10003FE52 /* MCJEagleDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D32ED3A247BBDF10003FE52 /* MCJEagleDefinitions.m */; };
 		7FC9C9152375BADE008CD9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9C9142375BADE008CD9DA /* AppDelegate.m */; };
 		7FC9C9182375BADE008CD9DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9C9172375BADE008CD9DA /* SceneDelegate.m */; };
 		7FC9C91B2375BADE008CD9DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9C91A2375BADE008CD9DA /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D32ED39247BBDF10003FE52 /* MCJEagleDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJEagleDefinitions.h; sourceTree = "<group>"; };
+		4D32ED3A247BBDF10003FE52 /* MCJEagleDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJEagleDefinitions.m; sourceTree = "<group>"; };
 		7FC9C9102375BADE008CD9DA /* Eagle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eagle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC9C9132375BADE008CD9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FC9C9142375BADE008CD9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D32ED38247BBDF10003FE52 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				4D32ED39247BBDF10003FE52 /* MCJEagleDefinitions.h */,
+				4D32ED3A247BBDF10003FE52 /* MCJEagleDefinitions.m */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
 		7FC9C9072375BADE008CD9DA = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		7FC9C9122375BADE008CD9DA /* Eagle */ = {
 			isa = PBXGroup;
 			children = (
+				4D32ED38247BBDF10003FE52 /* Definitions */,
 				7FC9C9132375BADE008CD9DA /* AppDelegate.h */,
 				7FC9C9142375BADE008CD9DA /* AppDelegate.m */,
 				7FC9C9162375BADE008CD9DA /* SceneDelegate.h */,
@@ -146,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D32ED3B247BBDF10003FE52 /* MCJEagleDefinitions.m in Sources */,
 				7FC9C91B2375BADE008CD9DA /* ViewController.m in Sources */,
 				7FC9C9152375BADE008CD9DA /* AppDelegate.m in Sources */,
 				7FC9C9262375BAE3008CD9DA /* main.m in Sources */,
@@ -225,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D62BHWAPT5;
 				INFOPLIST_FILE = Eagle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D62BHWAPT5;
 				INFOPLIST_FILE = Eagle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
